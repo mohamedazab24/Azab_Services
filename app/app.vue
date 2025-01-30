@@ -18,6 +18,16 @@ useSeoMeta({
   <NuxtRouteAnnouncer />
   <NuxtLoadingIndicator />
   <UApp>
+    <nav>
+      <ul>
+        <li><NuxtLink to="/dashboard">Dashboard</NuxtLink></li>
+        <li><NuxtLink to="/profile">Profile</NuxtLink></li>
+        <li><NuxtLink to="/maintenance-request">Maintenance Request</NuxtLink></li>
+        <li><NuxtLink to="/privacy">Privacy</NuxtLink></li>
+        <li><NuxtLink to="/terms">Terms</NuxtLink></li>
+        <li><NuxtLink to="/todos">Todos</NuxtLink></li>
+      </ul>
+    </nav>
     <NuxtPage />
   </UApp>
 </template>
