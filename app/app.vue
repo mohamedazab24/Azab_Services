@@ -26,6 +26,9 @@ useSeoMeta({
         <li><NuxtLink to="/privacy">Privacy</NuxtLink></li>
         <li><NuxtLink to="/terms">Terms</NuxtLink></li>
         <li><NuxtLink to="/todos">Todos</NuxtLink></li>
+        <li><NuxtLink to="/status">Status</NuxtLink></li>
+        <li><NuxtLink to="/register">Register</NuxtLink></li>
+        <li><NuxtLink to="/login">Login</NuxtLink></li>
       </ul>
     </nav>
     <NuxtPage />
